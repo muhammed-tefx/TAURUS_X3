@@ -9,7 +9,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 				const bodyForm = new FormData()
 			        bodyForm.append('audio', await q.download(), 'music.mp3')
            			bodyForm.append('apikey', 'caliph_71')
-           			axios('https://api.zeks.xyz/api/searchmusic', {
+           			axios('https://api.zeks.me/api/searchmusic?apikey=apivinz', {
                 		method: 'POST',
                 		headers: {
 				"Content-Type": "multipart/form-data",
