@@ -4,8 +4,8 @@ const { promisify } = require('util')
 const { join } = require('path')
 
 let confirmation = {}
-let repository = 'SudoAnirudh/E-V-A'
-let branch = 'master'
+let repository = 'muhammed-usrbot/TAURUS_X3'
+let branch = 'TAURUS'
 
 async function handler(m, { text }) {
     let res = await fetch(`https://raw.githubusercontent.com/${repository}/${branch}/${text}`)
