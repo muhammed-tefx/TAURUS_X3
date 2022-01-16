@@ -6,7 +6,7 @@
   "keywords": ["bot", "whatsapp", "whatsapp-bot"],
   "buildpacks": [
     {
-      "url": "heroku/nodejs"
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest -a my-app"
     },
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
