@@ -1,5 +1,5 @@
 let fs = require('fs')
-global.owner = ['919539102851'] // Letakan nomor kamu disini
+global.owner = ['918157849715'] // Letakan nomor kamu disini
 global.mods = [] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
@@ -31,14 +31,14 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'Eva-Sticker'
-global.author = 'Eva'
+global.packname = 'TAURUS-STICKER'
+global.author = 'TAURUS'
 
-global.wait = '_*Please Wait..*_'
-global.eror = '_*Server Error*_'
-global.fla = 'https://ibb.co/jW31z7n'
+global.wait = '_*ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ..*_'
+global.eror = '_*sᴇʀᴠᴇʀ ᴇʀʀᴏʀ !*_'
+global.fla = 'https://firebasestorage.googleapis.com/v0/b/photo-to-link.appspot.com/o/218691076?alt=media&token=ba84795e-5cf4-4a38-8a2c-9d8f6cff9687'
 
-global.watermark = '© EVA'
+global.watermark = 'Ⓒ︎2021 TAURUS'
 
 global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
 
