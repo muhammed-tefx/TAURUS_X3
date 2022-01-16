@@ -39,3 +39,5 @@ node .
  **JOB**          - `STUDYING`
 
  **CONTACT**     - [`918157849715`](wa.me/918157849715?text=hi%20muhammed%20i%20am%20from%20your%20repo)
+   
+ **LANGUAGE**        - `MALAYALAM,ENGLISH`
