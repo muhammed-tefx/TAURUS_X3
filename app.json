@@ -1,11 +1,27 @@
 {
-  "name": "TAURUS_X3",
-  "description": "Lightweight WhatsApp Bot",
-  "repository": "https://github.com/muhammed-usrbot/TAURUS_X3/",
-  "logo": "https://bit.ly/3sC5w0G",
-  "keywords": [
-    "bot",
-    "whatsapp",
-    "whatsapp-bot"
-  ]
+  "name": "TAURUS-X3",
+  "description": "taurus x3 build with nodejs by muhammed",
+  "repository": "https://github.com/muhammed-usrbot/TAURUS_X3",
+  "logo": "https://c.tenor.com/bVm05NUoyF0AAAAC/bokuno-hero-academia-izuku.gif",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
 }
