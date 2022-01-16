@@ -8,7 +8,7 @@ let handler = async (m, { conn, usedPrefix, text }) => {
     await delay(1500)
     await conn.copyNForward(id, content, true)
   }
-  conn.reply(m.chat, `_Successfully sent broadcast to ${users.length} number to be bot_
+  conn.reply(m.chat, `_sᴜᴄᴄᴇsғᴜʟʟʏ ʙʀᴏᴀᴅᴄᴀsᴛ sᴇɴᴛ ᴛᴏ ${users.length} ɴᴜᴍʙᴇʀ ᴛᴏ ʙᴇ ʙᴏᴛ_
 ${users.map(v => 'wa.me/' + v.replace(/[^0-9]/g, '') + `?text=${encodeURIComponent(usedPrefix)}menu`).join('\n')}
 \nestimation complete ${users.length * 1.5} second`.trim(), m)
 }
