@@ -459,7 +459,7 @@ type *.on delete* to turn off this message
     if (!db.data.chats[jid].descUpdate) return
     if (!desc) return
     let caption = `
-    @${descOwner.split`@`[0]} has changed the group description.
+    @${descOwner.split`@`[0]} ᴄʜᴀɴɢᴇᴅ ᴅɪsᴄʀɪᴘᴛɪᴏɴ ᴛᴏ:
     ${desc}
     type *.off desc* to turn off this message
         `.trim()
@@ -470,16 +470,16 @@ type *.on delete* to turn off this message
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'This command can only be used by _*Bot Owner*_',
-    owner: 'This command can only be used by _*Bot Owner*_',
-    mods: 'This command can only be used by _*Moderator*_',
-    premium: 'This command is only for _*Premium users*_',
-    group: 'This command can only be used in groups',
-    private: 'This command can only be used in Private Chat',
-    admin: 'This command is only for *Admin* group',
-    botAdmin: 'Make bot as *Admin* to use this command',
-    unreg: 'Please register to use this feature by typing:\n\n*#register name.age*\n\nEXAMPLE: *#register Eva.19*',
-    nsfw: 'NSFW is not active'
+    rowner: 'ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ʙʏ *ʙᴏᴛ ᴏᴡɴᴇʀ*',
+    owner: 'ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ʙʏ *ʙᴏᴛ ᴏᴡɴᴇʀ*',
+    mods: 'ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ʙʏ *ᴍᴏᴅᴇʀᴀᴛᴏʀ*',
+    premium: 'ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ *ᴘʀᴇᴍɪᴜᴍ ᴜsᴇʀs*',
+    group: 'ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ᴡᴏʀᴋ ɪɴ *ɢʀᴏᴜᴘs*',
+    private: 'ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ᴡᴏʀᴋ ɪɴ *ᴘʀɪᴠᴀᴛᴇ*',
+    admin: 'ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ғᴏʀ *ᴀᴅᴍɪɴs*',
+    botAdmin: 'ʏᴏᴜʀ ʙᴏᴛ ɪs ɴᴏᴛ ᴀ *ᴀᴅᴍɪɴ* ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ',
+    unreg: 'ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʀᴇɢɪsᴛᴇʀ ᴛᴏ ᴜsᴇ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ʙʏ ᴛʏᴘɪɴɢ:\n\n*#register <ʏᴏᴜʀ ɴᴀᴍᴇ>.<ʏᴏᴜʀ ᴀɢᴇ>*\n\nᴇxᴀᴍᴘʟᴇ: *#register Taurus.15*',
+    nsfw: 'NSFW ɪs ɴᴏᴛ ᴀᴄᴛɪᴠᴇ'
   }[type]
   if (msg) return m.reply(msg)
 }
