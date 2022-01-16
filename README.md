@@ -5,14 +5,9 @@
 
 
 ## SCAN
-**REPLIT WILL ADD SOON**
-```bash
-git clone https://github.com/muhammed-usrbot/TAURUS_X3
-cd TAURUS_X3
-npm i
-npm update
-node .
-```
+
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@muhammed-userbot/TAURUSX3)
+
 
 
 
