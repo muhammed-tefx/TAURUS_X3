@@ -1,3 +1,10 @@
+</a>
+</p>
+<div align="center">
+ <p align="center">
+
+## CHECK BOTS FEATURES 
+
 <br>
    <a href="wa.me/918157849715?text=.menu"><img src="https://img.shields.io/badge/-CHECK%20BOT-black?style=for-the-badge&logo=whatsapp&logoColor=white">
 
